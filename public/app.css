@@ -1,0 +1,48 @@
+@media only screen and (max-width: 640px){
+    p{
+        color:red;
+        background-color: #000000;
+    }
+    
+    img{
+        width: 30%;
+            }
+
+    h1{
+        color: red;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    p{
+        color:blue;
+        background-color: #4a831c;
+    }
+    
+    img{
+        width: 50%;
+    }
+    
+    h1{
+        color: blue;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    p{
+        color:white;
+        background-color: blue;
+    }
+img{
+    width: 100%;
+
+}
+    h1{
+        color: orange;
+    }
+}
+
+html{
+    font-size:16px;
+}
